@@ -6,11 +6,12 @@ const Portfolio = () => {
     <div id="portfolio">
       <h1 id="projects">Projects</h1>
       <div className="project">
-        <NavLink href="/humanrights">
-          <Button className="hrfBtn">Human Rights First</Button>
+        <NavLink href="https://alexandriaduell.medium.com/euthanization-at-the-austin-animal-center-are-they-a-no-kill-shelter-a6a00422406d"
+        target="blank">
+          <Button  className="animal">Analysis of Austin Animal Shelter</Button>
         </NavLink>
       </div>
-      <div className="project ">
+      {/* <div className="project ">
         <NavLink
           href="https://conways-game-of-life-rosy.vercel.app/"
           target="blank"
@@ -23,7 +24,7 @@ const Portfolio = () => {
         <NavLink href="https://github.com/jduell12/Portfolio" target="blank">
           <Button className="githubPort">Portfolio on Github</Button>
         </NavLink>
-      </div>
+      </div> */}
     </div>
   );
 };
