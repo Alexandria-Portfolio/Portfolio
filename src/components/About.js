@@ -3,7 +3,7 @@ import { Button, Collapse, CardBody, Card } from "reactstrap";
 import TypeIt from "typeit-react";
 
 //images
-import profile from "../imgs/Alex.jpeg";
+import profile from "../imgs/Alex-pro.jpeg";
 
 //context
 import { AboutContext } from "../context/AboutContext";
