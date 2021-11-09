@@ -65,11 +65,11 @@ const About = () => {
         }}
         getBeforeInit={(instance) => {
           instance
-            .type("Data Scientist")
+            .type("Data Analyst")
             .pause(750)
             .delete(19)
             .pause(500)
-            .type("Data Analyst")
+            .type("Data Scientist")
             .pause(750)
             .delete(18)
             .pause(500)
